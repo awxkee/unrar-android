@@ -1,6 +1,9 @@
 # unrar-android
 The [unrar library](https://www.rarlab.com/rar_add.htm) java binding.
-
+```groovy
+// gradle implementation
+implementation 'com.github.awxkee:unrar-android:1.0.1'
+```
 List archive entries:
 ```java
 RarFile rar=new RarFile("/sdcard/test.rar");
